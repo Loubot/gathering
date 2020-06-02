@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+  
+
+
+
+  
+  
+  
+  <title>Gathering</title>
+  <style type="text/css">
+<!--
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #99CCCC;
+}
+#Layer1 {
+	position:absolute;
+	left:149px;
+	top:63px;
+	width:638px;
+	height:206px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:87px;
+	top:296px;
+	width:753px;
+	height:166px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:93px;
+	top:275px;
+	width:745px;
+	height:89px;
+	z-index:3;
+}
+#Layer4 {
+	position:absolute;
+	left:147px;
+	top:394px;
+	width:643px;
+	height:38px;
+	z-index:4;
+}
+#Layer5 {
+	position:absolute;
+	left:51px;
+	top:25px;
+	width:787px;
+	height:403px;
+	z-index:1;
+}
+#Layer6 {
+	position:absolute;
+	left:8px;
+	top:7px;
+	width:728px;
+	height:468px;
+	z-index:1;
+}
+#Layer7 {
+	position:absolute;
+	left:250px;
+	top:118px;
+	width:462px;
+	height:128px;
+	z-index:1;
+}
+#Layer8 {
+	position:absolute;
+	left:263px;
+	top:325px;
+	width:430px;
+	height:105px;
+	z-index:1;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+a:hover {
+	text-decoration: none;
+	color: #0099CC;
+}
+a:active {
+	text-decoration: none;
+	color: #006699;
+}
+.style9 {color: #0066FF}
+.style10 {color: #006699}
+.style11 {color: #006699; font-style: italic; }
+-->
+  </style>
+  
+  
+  <script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+  </script>
+  
+  
+  <script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+  </script>
+  
+  
+  <link href="gathering.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="MM_preloadImages('../images/nav/yourCommentsOver.jpg','../images/navBar/prayerRoomOver.jpg','../images/navBar/studyRoomOver.jpg','../images/navBar/musicRoomOver.jpg','../images/navBar/aboutUsOver.jpg','../images/navBar/faqOver.jpg','../images/navBar/yourCommentsOver.jpg','../images/navBar/homeOver.jpg','../images/prayerRoom/backOver.gif')">
+
+
+
+<table align="center" cellspacing="0" width="899">
+
+
+
+  <tbody>
+
+
+    <tr>
+
+
+
+    <td colspan="5" bgcolor="#336699">
+      
+      
+      <table border="0" cellpadding="0" cellspacing="0">
+
+
+
+      <tbody>
+
+
+          <tr bgcolor="#6699ff">
+
+
+
+        <td bgcolor="#6699ff"><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','rightCorner','',1)" onmouseover="MM_nbGroup('over','rightCorner','','',1)" onmouseout="MM_nbGroup('out')"><img src="rightCorner.jpg" alt="" name="rightCorner" id="rightCorner" onload="" border="0" height="65" width="33" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','home','',1)" onmouseover="MM_nbGroup('over','home','../images/navBar/homeOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img name="home" src="home.jpg" alt="" onload="" border="0" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../prayerRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','prayerRoom','',1)" onmouseover="MM_nbGroup('over','prayerRoom','../images/navBar/prayerRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="prayerRoom.jpg" alt="" name="prayerRoom" id="prayerRoom" onload="" border="0" height="65" width="132" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../studyRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','studyRoom','',1)" onmouseover="MM_nbGroup('over','studyRoom','../images/navBar/studyRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="studyRoom.jpg" alt="" name="studyRoom" id="studyRoom" onload="" border="0" height="65" width="120" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../musicRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','musicRoom','',1)" onmouseover="MM_nbGroup('over','musicRoom','../images/navBar/musicRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="musicRoom.jpg" alt="" name="musicRoom" id="musicRoom" onload="" border="0" height="65" width="123" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../aboutUs.html" target="_parent" onclick="MM_nbGroup('down','group1','aboutUs','',1)" onmouseover="MM_nbGroup('over','aboutUs','../images/navBar/aboutUsOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="aboutUs.jpg" alt="" name="aboutUs" id="aboutUs" onload="" border="0" height="65" width="110" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../faq.html" target="_parent" onclick="MM_nbGroup('down','group1','faq','',1)" onmouseover="MM_nbGroup('over','faq','../images/navBar/faqOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="faq.jpg" alt="" name="faq" id="faq" onload="" border="0" height="65" width="67" /></a></td>
+
+
+
+        <td bgcolor="#6699ff"><a href="../yourComments.html" target="_parent" class="style9" onclick="MM_nbGroup('down','group1','yourComments','',1)" onmouseover="MM_nbGroup('over','yourComments','../images/navBar/yourCommentsOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="yourComments.jpg" alt="" name="yourComments" id="yourComments" onload="" border="0" height="65" width="161" /></a></td>
+
+
+
+        <td><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','leftSide','',1)" onmouseover="MM_nbGroup('over','leftSide','','',1)" onmouseout="MM_nbGroup('out')"><img src="leftSide.jpg" alt="" name="leftSide" id="leftSide" onload="" border="0" height="65" width="35" /></a></td>
+
+
+
+      </tr>
+
+
+
+    
+        
+        
+        </tbody>
+      
+      
+      </table>
+
+
+    </td>
+
+
+
+  </tr>
+
+
+
+  <tr>
+
+
+
+    <td bgcolor="#b5e1bf" valign="top" width="227"><img src="pagesRight.jpg" height="1171" width="226" /></td>
+
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="20">
+      
+      
+      <p>&nbsp;</p>
+
+
+
+      
+      
+      
+      <p>&nbsp;</p>
+
+
+
+      
+      
+      
+      <p>&nbsp;</p>
+
+
+
+    
+      
+      
+      <p class="style10">&nbsp;</p>
+
+
+      </td>
+
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="437">
+      
+      
+      <p>&nbsp;</p>
+
+
+
+      
+      
+      
+      <p><img src="studyRoomTitle.gif" height="42" width="336" /></p>
+
+
+
+      
+      
+      
+      <p align="center">A story of the Eagle and a bird</p>
+
+
+
+      
+      
+      
+      <p style="text-align: left;">In a deep dark forest an ancient
+people with strange customs lived. There was a river running through
+their part of the forest and when their children reached a certain age
+they were separated by gender with the boys going to one side of the
+river and the girls going to the other. </p>
+
+
+      
+      
+      <p style="text-align: left;">On the side that was for the boys
+the men gather together at night around the communal fire and told
+stories and smoked their pipes. Each family had its own special blend
+of tobacco, which has kept within the family. They also had a second
+blend that each family was happy to share with their neighbours. The
+custom of sharing pipers within the family and presenting a different
+blend to those out-side the family was a well-established tradition. No
+one quite knew where it came from. The stories they told were, all in
+all, much the same between the families though there was about 100
+different ones. The stories were all held in common more or less. The
+most common, though least understood story, was a strange story of a
+Great eagle that once flew the land, fought and overcame the great
+dragon, before this great bird was finally killed trying to save his
+friends. There was a lot more to the story but that seemed to be the
+general thread to it. </p>
+
+
+      
+      
+      <p style="text-align: left;">On the side of the river that was
+for the girls much the same thing happened, but in a much different
+way. Again the women gathered around their fire and told stories - the
+same ones that the lads told but from a different perspective. I
+neglected to mention that on the men's side they told other stories
+just like the women of the day's work and of their daily struggles
+keeping the forest back and their clearing clear. Instead of smoking a
+special blend of tobacco the women made traditional dresses. The
+intricate stitches used were kept within each family and passed on from
+generation to generation. </p>
+
+
+      
+      
+      <p style="text-align: left;">When a young couple start to be
+aware of each other and decided that they wanted to be together. The
+community as a whole - that's both the men and the women come together
+to build the couple a raft. They sang - "We all want to give them the
+best start in life possible" as a work shanty song to help them work
+together while they built the raft.</p>
+
+
+      
+      
+      <p style="text-align: left;">When the time came for the young
+couple to come together for their first night there is a great
+celebration. And as they leave for the raft each of the parents give a
+parting gift: the boys get the special blend of tobacco and its secret
+and the girls get the traditional dresses and the secret of the special
+family stitch. Their parents assure them that these generational gifts
+will be a great comfort to them when the going gets tough. </p>
+
+
+      
+      
+      <p style="text-align: left;">Most of the young couples setting
+out on life were so in love that they usually didn't open their family
+gifts for a goodly length of time. As they moved down the river, going
+in the most part with the flow, they started to notice campfires doted
+along either side of the river. They always appeared in twos - one on
+the left and one on the right sides of the river. It reminded them of
+home and they felt a strange tug from these fires though they didn't
+speak of it, the tug for the young husband was for the fires on the
+right and for the wife it was the fires on the left. But as long as
+they didn't open their special family gifts they would freely kept
+moving along - further and further down the river. They, from time to
+time, remembered and told each other the stories they grew up with
+around their fires back home. They noticed that though their stories
+were different they were the same in many ways. But the story that had
+the greatest draw on them and seemed to flow with the river was an
+older story - the story of the great eagle. The reasoned why this story
+grew in importance for them is that they started to remember an
+important part of the story that they had until that point in their
+journey forgotten. They remembered that in the story the great eagle
+spoke of a journey like their one with a broad lake at the end of it.
+And as they moved on in harmony with the river's music a hope of
+leaving the river and joining a great broad lake began to grow in them
+also. They started to hope that they might be able to start a new life
+of their own by travelling to this lake and living not separate lives
+at their own campfires but together on this lake&rsquo;s shore. </p>
+
+
+      
+      
+      <p style="text-align: left;">Then the ruff water came. They knew
+it would, as that was a part of all the stories they were told at home.
+At the start they were determined that they would just keep going
+listening not so much to the mad rush of the ruff surface water, but
+rather to the deeper note below. After each hard day they were able to
+find calm water to stop for the night. This calm water was well lit
+from the many campfires on either shore. After a number of nights in
+these calm places it slowly became apparent to them that this is where
+most couples ended their journeys and left the river.&nbsp; </p>
+
+
+      
+      
+      <p style="text-align: left;">They determined to continue on,
+despite the growing sense of fear they were each experiencing. As a way
+of their coping they each would take out their comforter but without
+the other noticing. The husband started to mix his special blend of
+tobacco and she would admire the fine stitching on her now prized
+procession. They kept travelling on though the tug of the communal
+campfires was growing in each of them, yet they still had the hope of
+coming to a broad lake were they could be free of the river and the tug
+of the campfires. Imagine their horror at the end of this day to see
+the forest on either side of the river close in to meet in the middle.
+In fear they stopped. They weighted anchor in mid-river. </p>
+
+
+      
+      
+      <p style="text-align: left;">As the days and the years went by,
+they found themselves visiting the inviting fires on either side of the
+river. Each night they sat around the fires with their special tobacco
+and traditional dress, he on his side and she on hers. They hadn't
+quite grown apart yet though they were slowly becoming like their
+parents they left behind and the ancient people of old: her with her
+dress and special stitching made her welcome at the women's campfire
+and he with his special blend of tobacco at the men's. They missed
+their life on the raft and their shared hopes so they always tried to
+get back to sleep on their raft each night. They lay quietly side by
+side, anchored and trapped in their fear and by the pull of old life.
+Yet they were not just ready to give up on their hopes and dreams. And
+when they retold the story of the eagle this seemed to help in some way.</p>
+
+
+      
+      
+      <p style="text-align: left;">One morning the sun rose brightly.
+And in a bird flew directly to them. Strangely this happened as they
+had been retelling the eagle story again. And at first they thought it
+was the eagle coming to encourage them or better to tell them the way
+to the lake. As it settled on the front of the raft it sang an ancient
+bird-song re-telling the story of an eagle that had flown through the
+darkest darkness to the broad-shored lake. The dove stopped its song
+for just long enough to say, "come follow me". They started to tell
+this little bird why it was no longer possible to travel on - they told
+how they had lost their youthful fire; and that they were becoming more
+and more like the ancients on the banks of the river. But most of all
+they spoke of not being able to see away forward through the forest
+that was blocking their way. But all that the dove said in its soft
+still voice was "come follow me". They reasoned - this was no mighty
+eagle but a little gentle dove. Who would follow a gentle dove?</p>
+
+      
+      <ul style="text-align: left;">
+
+        <li><a href="../prayerRoomfs/personalMeaning.html" target="_parent">A Prayer to find pesonal meaning and direction</a></li>
+
+        <li><a href="../prayerRoomfs/seendhear.html" target="_parent">A Prayer to hear and see you more clearly</a></li>
+
+      
+      </ul>
+
+
+
+      
+      
+      
+      <p>&nbsp;</p>
+
+
+
+      
+      
+      
+      <p><a href="../studyRoom.html" target="_parent" onmouseover="MM_swapImage('back','','../images/prayerRoom/backOver.gif',1)" onmouseout="MM_swapImgRestore()"><img src="back.gif" alt="backToList" name="back" id="back" border="0" height="17" width="87" /></a></p>
+
+
+
+      
+      
+      
+      <p class="style11">&nbsp;</p>
+
+
+      </td>
+
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="18">&nbsp;</td>
+
+
+
+    <td align="right" bgcolor="#b5e1bf" valign="top" width="209"><img src="pagesLeft.jpg" height="1171" width="208" />j</td>
+
+
+
+  </tr>
+
+
+
+  <tr>
+
+
+
+    <td colspan="5" bgcolor="#cfeed9">&nbsp;</td>
+
+
+
+  </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+</body>
+</html>

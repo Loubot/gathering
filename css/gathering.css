@@ -1,0 +1,91 @@
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #99CCCC;
+}
+#Layer1 {
+	position:absolute;
+	left:149px;
+	top:63px;
+	width:638px;
+	height:206px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:87px;
+	top:296px;
+	width:753px;
+	height:166px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:93px;
+	top:275px;
+	width:745px;
+	height:89px;
+	z-index:3;
+}
+#Layer4 {
+	position:absolute;
+	left:147px;
+	top:394px;
+	width:643px;
+	height:38px;
+	z-index:4;
+}
+#Layer5 {
+	position:absolute;
+	left:51px;
+	top:25px;
+	width:787px;
+	height:403px;
+	z-index:1;
+}
+#Layer6 {
+	position:absolute;
+	left:8px;
+	top:7px;
+	width:728px;
+	height:468px;
+	z-index:1;
+}
+#Layer7 {
+	position:absolute;
+	left:250px;
+	top:118px;
+	width:462px;
+	height:128px;
+	z-index:1;
+}
+#Layer8 {
+	position:absolute;
+	left:263px;
+	top:325px;
+	width:430px;
+	height:105px;
+	z-index:1;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+a:hover {
+	text-decoration: none;
+	color: #0099CC;
+}
+a:active {
+	text-decoration: none;
+	color: #006699;
+}
+.style9 {color: #0066FF}
+.style10 {color: #006699}
+body,td,th {
+	font-family: Times New Roman, Times, serif;
+	color: #006699;
+}

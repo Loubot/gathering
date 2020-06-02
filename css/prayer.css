@@ -1,0 +1,35 @@
+#Layer3 {
+	position:absolute;
+	left:27px;
+	top:146px;
+	width:684px;
+	height:351px;
+	z-index:2;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	color: #003399;
+	text-decoration: none;
+}
+a:active {
+	color: #006699;
+	text-decoration: none;
+}
+.style1 {
+	color: #0099CC;
+	font-size: 18px;
+}
+.style2 {
+	font-size: small;
+	color: #006699;
+}
+body,td,th {
+	color: #006699;
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+
+
+  
+  
+  <title>Gathering</title>
+  <style type="text/css">
+<!--
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #99CCCC;
+}
+#Layer1 {
+	position:absolute;
+	left:149px;
+	top:63px;
+	width:638px;
+	height:206px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:87px;
+	top:296px;
+	width:753px;
+	height:166px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:93px;
+	top:275px;
+	width:745px;
+	height:89px;
+	z-index:3;
+}
+#Layer4 {
+	position:absolute;
+	left:147px;
+	top:394px;
+	width:643px;
+	height:38px;
+	z-index:4;
+}
+#Layer5 {
+	position:absolute;
+	left:51px;
+	top:25px;
+	width:787px;
+	height:403px;
+	z-index:1;
+}
+#Layer6 {
+	position:absolute;
+	left:8px;
+	top:7px;
+	width:728px;
+	height:468px;
+	z-index:1;
+}
+#Layer7 {
+	position:absolute;
+	left:250px;
+	top:118px;
+	width:462px;
+	height:128px;
+	z-index:1;
+}
+#Layer8 {
+	position:absolute;
+	left:263px;
+	top:325px;
+	width:430px;
+	height:105px;
+	z-index:1;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+a:hover {
+	text-decoration: none;
+	color: #0099CC;
+}
+a:active {
+	text-decoration: none;
+	color: #006699;
+}
+.style9 {color: #0066FF}
+.style10 {color: #006699}
+.style11 {color: #006699; font-style: italic; }
+-->
+  </style>
+  
+  <script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+  </script>
+  
+  <script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+  </script>
+  
+  <link href="gathering.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="MM_preloadImages('../images/nav/yourCommentsOver.jpg','../images/navBar/prayerRoomOver.jpg','../images/navBar/studyRoomOver.jpg','../images/navBar/musicRoomOver.jpg','../images/navBar/aboutUsOver.jpg','../images/navBar/faqOver.jpg','../images/navBar/yourCommentsOver.jpg','../images/navBar/homeOver.jpg','../images/prayerRoom/backOver.gif')">
+
+
+<table align="center" cellspacing="0" width="899">
+
+
+  <tbody>
+
+    <tr>
+
+
+    <td colspan="5" bgcolor="#336699">
+      
+      <table border="0" cellpadding="0" cellspacing="0">
+
+
+      <tbody>
+
+          <tr bgcolor="#6699ff">
+
+
+        <td bgcolor="#6699ff"><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','rightCorner','',1)" onmouseover="MM_nbGroup('over','rightCorner','','',1)" onmouseout="MM_nbGroup('out')"><img src="rightCorner.jpg" alt="" name="rightCorner" id="rightCorner" onload="" border="0" height="65" width="33" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','home','',1)" onmouseover="MM_nbGroup('over','home','../images/navBar/homeOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img name="home" src="home.jpg" alt="" onload="" border="0" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../prayerRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','prayerRoom','',1)" onmouseover="MM_nbGroup('over','prayerRoom','../images/navBar/prayerRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="prayerRoom.jpg" alt="" name="prayerRoom" id="prayerRoom" onload="" border="0" height="65" width="132" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../studyRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','studyRoom','',1)" onmouseover="MM_nbGroup('over','studyRoom','../images/navBar/studyRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="studyRoom.jpg" alt="" name="studyRoom" id="studyRoom" onload="" border="0" height="65" width="120" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../musicRoom.html" target="_parent" onclick="MM_nbGroup('down','group1','musicRoom','',1)" onmouseover="MM_nbGroup('over','musicRoom','../images/navBar/musicRoomOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="musicRoom.jpg" alt="" name="musicRoom" id="musicRoom" onload="" border="0" height="65" width="123" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../aboutUs.html" target="_parent" onclick="MM_nbGroup('down','group1','aboutUs','',1)" onmouseover="MM_nbGroup('over','aboutUs','../images/navBar/aboutUsOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="aboutUs.jpg" alt="" name="aboutUs" id="aboutUs" onload="" border="0" height="65" width="110" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../faq.html" target="_parent" onclick="MM_nbGroup('down','group1','faq','',1)" onmouseover="MM_nbGroup('over','faq','../images/navBar/faqOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="faq.jpg" alt="" name="faq" id="faq" onload="" border="0" height="65" width="67" /></a></td>
+
+
+        <td bgcolor="#6699ff"><a href="../yourComments.html" target="_parent" class="style9" onclick="MM_nbGroup('down','group1','yourComments','',1)" onmouseover="MM_nbGroup('over','yourComments','../images/navBar/yourCommentsOver.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="yourComments.jpg" alt="" name="yourComments" id="yourComments" onload="" border="0" height="65" width="161" /></a></td>
+
+
+        <td><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','leftSide','',1)" onmouseover="MM_nbGroup('over','leftSide','','',1)" onmouseout="MM_nbGroup('out')"><img src="leftSide.jpg" alt="" name="leftSide" id="leftSide" onload="" border="0" height="65" width="35" /></a></td>
+
+
+      </tr>
+
+
+    
+        
+        </tbody>
+      
+      </table>
+
+    </td>
+
+
+  </tr>
+
+
+  <tr>
+
+
+    <td bgcolor="#b5e1bf" valign="top" width="227"><img src="pagesRight.jpg" height="1171" width="226" /></td>
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="20">
+      
+      <p>&nbsp;</p>
+
+
+      
+      
+      <p>&nbsp;</p>
+
+
+      
+      
+      <p>&nbsp;</p>
+
+
+    
+      
+      <p class="style10">&nbsp;</p>
+
+      </td>
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="437">
+      
+      <p>&nbsp;</p>
+
+
+      
+      
+      <p><img src="studyRoomTitle.gif" height="42" width="336" /></p>
+
+
+      
+      
+      <p> -"&hellip;<em>then the Lord God formed man from the dust of
+the ground, and breathed into his nostrils the breath of life; and the
+man became a living being."</em> Gen.2:7.</p>
+
+
+      
+      
+      <p style="text-align: left;">I was preparing a teaching for a
+Church group in Scotland. I was told by the leader that I should keep
+it simple. A simple message - they would take in, if I did anything
+more than that I wouldn't keep their attention.&nbsp;&nbsp; <br />
+
+That made it easy - I decided to take out one of my older teachings and
+dust it off for them. But as I prayed about which one to choose I read
+this verse - "&hellip;<em>then
+the Lord God formed man from the dust of the ground, and breathed into
+his nostrils the breath of life; and the man became a living being."</em> </p>
+
+      
+      <p style="text-align: left;">It is part of the creation story.
+What struck me for the first time was a question - why did God use dirt
+to create? He was able to made the sun, moon and stars out of nothing
+continuing in this vain for 7 days and then to have to revert to using
+dirt or muck to form man seemed a strange and a diversion to his well
+established way of going - creating everything from nothing.</p>
+
+      
+      <p style="text-align: left;">God could have used <em>nothing</em>
+to create man too, but he didn't. He hadn't got tired after 6 days of
+creating and now had to revert to the help of the material world to
+form his final being. Nor, was he board and wanted to try something
+new. But he was showing at the very start of things the way he would
+re-create the new man when the time was right. </p>
+
+      
+      <p style="text-align: left;">I remembered the story told by the
+prophet Jeremiah. Jeremiah tells of going down to the potter's shed and
+seeing a piece of clay on a potter's wheel. The first turning of the
+clay produces a flawed vessel. The potter starts again with the same
+piece of clay and produces another vessel - A second creation from the
+same clay. That is the way that the Good Lord works with us. He doesn't
+rub us out to start anew. </p>
+
+      
+      <p style="text-align: left;">As I started to teach this to our
+friends in Scotland, I asked how many of us would like the Lord to just
+rub out all our past life and create from nothing a perfect person.
+Most of the people there thought this would be something they would
+like. But that is not what the Lord will do with us. He will not rub us
+out and start anew, creating our new lives from nothing, wiping out our
+past lives, our experiencing and relationships, our connections to the
+place and people we live with. It is the dirt of our lives to date that
+the Lord God uses to create the new man.</p>
+
+      
+      <p style="text-align: left;">It is easy for us to sometimes forget that '<em>God so loved us, while we were yet sinners that he gave his only begotten Son'</em>.
+We think that God loved us when we were all cleaned up and put right,
+when we became a new creation. But that is not so. He loved us when we
+were yet sinners. He loves us as we are, but he loves us too much to
+leave us as we are. In so doing he doesn't throw away the old muck that
+was our lives but uses it as the raw material to be formed into the new
+creation. So he creates the new man in us from what he holds precious -
+us.</p>
+
+      
+      <p style="text-align: left;">The prophet Isaiah tells us that God
+has our name written in the palm of his hands. This is the new name
+that is spoken about by John in his book of revelations. This name is
+no tag to label us with; rather, it is our new identity in Christ. This
+name is the summation of God creative work where he names us as a
+creation in His own image. </p>
+
+      
+      <p style="text-align: left;">Back to the potter in the shed - God
+is compared to the potter re-forming the vessel. When the potter has
+the vessel formed he will lift it in his hands and turn and place it in
+the kiln to be fired. But in the moment of turning the name, embossed
+in the palm of his hands - his new name for us, is impressed in to the
+clay thus naming it. Not by way of tagging it, but by way of calling
+forth the new image in Christ that God the creator has for us. </p>
+
+      
+      <p style="text-align: left;">The point that I wanted to make to
+these precious people in Scotland is that all of their lives and
+experiences are precious to God and he wants to place his breath in the
+clay of their lives. So that they can be men and women as God intends
+the fullness of his creation formed from the clay of their lives,
+relationships, and place.</p>
+      <p style="text-align: left;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="../prayerRoomfs/heart.html" target="_parent">A Prayer to change my heart</a></p>
+
+
+      
+      
+      <p>&nbsp;</p>
+
+
+      
+      
+      <p><a href="../studyRoom.html" target="_parent" onmouseover="MM_swapImage('back','','../images/prayerRoom/backOver.gif',1)" onmouseout="MM_swapImgRestore()"><img src="back.gif" alt="backToList" name="back" id="back" border="0" height="17" width="87" /></a></p>
+
+
+      
+      
+      <p class="style11">&nbsp;</p>
+
+      </td>
+
+
+    <td align="center" bgcolor="#ffffff" valign="top" width="18">&nbsp;</td>
+
+
+    <td align="right" bgcolor="#b5e1bf" valign="top" width="209"><img src="pagesLeft.jpg" height="1171" width="208" />j</td>
+
+
+  </tr>
+
+
+  <tr>
+
+
+    <td colspan="5" bgcolor="#cfeed9">&nbsp;</td>
+
+
+  </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</body>
+</html>
