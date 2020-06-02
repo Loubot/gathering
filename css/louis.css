@@ -2,6 +2,10 @@ body{
 	width: 100%;
 }
 
+.width_100{
+	width: 100% !important;
+}
+
 .width_50{
 	width: 50% !important;
 }
@@ -9,6 +13,18 @@ body{
 .gutter{
 	display: table-cell;
 	width: 25% !important;
+}
+
+.auto_margin{
+	margin: auto !important;
+}
+
+.font_size_2_Em{
+	font-size: 2em !important;
+}
+
+.center_text{
+	text-align: center !important;
 }
 
 @media ( max-width: 400px ){
