@@ -1,0 +1,22 @@
+body{
+	width: 100%;
+}
+
+.width_50{
+	width: 50% !important;
+}
+
+.gutter{
+	display: table-cell;
+	width: 25% !important;
+}
+
+@media ( max-width: 400px ){
+	.width_50{
+		width: 100% !important;
+	}
+	.gutter{
+		display: none;
+		width: 0px;
+	}
+}
